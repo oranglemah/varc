@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1220;
+  --card: #0f172a;
+  --fg: #e2e8f0;
+  --muted: #94a3b8;
+  --brand: #7c3aed;
+  --brand-2: #22d3ee;
+}
+html, body {
+  height: 100%;
+}
+body {
+  background: linear-gradient(180deg, rgba(2,8,23,.85), rgba(2,8,23,.6)), radial-gradient(60rem 40rem at top right, rgba(124,58,237,.15), transparent), radial-gradient(60rem 40rem at bottom left, rgba(34,211,238,.12), transparent);
+  color: var(--fg);
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
