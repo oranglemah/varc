@@ -25,8 +25,5 @@
     "@types/react": "18.3.6",
     "@types/react-dom": "18.3.0",
     "@types/jsonwebtoken": "9.0.6"
-  },
-    "overrides": {
-    "eslint": "^8.57.0"
   }
 }
